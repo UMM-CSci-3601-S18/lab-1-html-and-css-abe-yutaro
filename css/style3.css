@@ -15,17 +15,20 @@ body{
   margin-right: auto;
   margin-left: auto;
   width: 700px;
+  /*1.Move every contents to middle*/
 }
 #main-title{
-  color: black; /*Changed the color and font for the title...UMM computer scinece */
+  color: black; /*2.Changed the color and font for the title...UMM computer scinece */
   font-family: Sans-serif;
   text-align: center;
-  font-size: 3rem
+  font-size: 3rem;
+
 
 }
 h2 {
   font-family: sans-serif;
   color: blue;
+
 
 }
 /*We change color for the title of the section */
@@ -39,14 +42,14 @@ h2 {
   box-shadow: 5px 5px gray;
 
 }
-/*Add shadow on the div*/
+/*3.Add shadow on the div*/
 
 #courses {
 background-color: lightpink;
   opacity: .85;
 
 }
-/*Change the color for border area and add opacity*/
+/*4.Change the color for border area and add opacity*/
 
 #pslo {
   background-color: lightblue;
@@ -81,27 +84,31 @@ img.pic {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: gray;
-  marigin: auto;
+
+
   width: 50%;
 }
 #style li {
-  float: left; /*explore what happens if this is 'right' instead*/
+  float: left;
 }
 #style li a {
   display: block;
-  color: white;
+  color: Darkred;
   text-align: center;
-  padding: 14px 16px; /*this adds some spacing around the items in our style footer*/
+  padding: 14px 16px;
   text-decoration: none;
 }
 
 #style li a:hover {
-  background-color: #000;
+  border:none;
+  background-color: inherit;
+  padding: 14px 28px; /*5.Add hover animation*/
+  cursor: pointer;
+  display: inline-block;
 }
 
 #style {
-  position: static;
+  position: fixed;
   background-color: lightgray;
   left: 0;
   right: 0;
@@ -109,7 +116,9 @@ img.pic {
   height: 55px;
   padding-top: 10px;
   opacity: .85;
+
 }
+
 #validation {
   font-size: 100%;
   background-color: #d5d6d2;
@@ -121,3 +130,6 @@ img.pic {
   box-shadow: 5px 5px gray;
   opacity: .85;
 }
+
+
+/*This page work on Chorome and firefox. We could not check opera browser.*/
