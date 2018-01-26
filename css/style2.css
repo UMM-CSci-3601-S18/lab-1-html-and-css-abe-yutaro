@@ -12,8 +12,12 @@ body{
   padding: 30px;
   background-color: black;
   color: white;
-  /*column-count: 2;*/
- /* background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-2.jpg"); */
+
+
+
+
+  /*1.add a back-ground picture*/
+  background-image: url("http://data.freehdw.com/lines-abstract-background-point-scheme-background-free.jpg");
 
 }
 
@@ -22,34 +26,41 @@ body{
   text-align: center;
   font-size: 4rem;
   color: darkred;
-  text-shadow: 2px 2px #ff0716;
+  text-shadow: 2px 2px #ff0716; /*2.Add text shadow to title and add opacity.*/
   background-color: black;
   opacity: .8;
 }
 
+
 h2 {
   font-family: "Abyssinica SIL";
 }
+/*2.Change the font for all section title.*/
 
 .section {
   border-radius: 1px;
   padding: 12px;
   border: 1px solid;
   margin: 10px;
-  max-width: 870px;
-}
+  max-width: 770px;
 
+
+}
+/*3.Change section border to squre*/
 #courses {
   background-color: black;
   opacity: .9;
+
 }
 
 #pslo {
   background-color: black;
   opacity: .9;
   padding: 1em;
-  clear: left;
-  margin-right: 55%;
+ float: right; /*4. This divide the screen in two sections */
+  width: 50%; /* This makes the div to take only 50 % of the screen */
+  height: 400px;
+
 
 }
 
@@ -59,15 +70,12 @@ h2 {
  margin-left: 45%;
   padding: 1em;
   overflow: hidden;
-  width: 40%;
-
-}
-
-#faculty {
-  background-color: black;
   width: 50%;
+  float: right;
+  height: 550px;
 
 }
+
 
 #faculty>ul>li {
   display: inline-block;
@@ -87,12 +95,14 @@ img.pic {
 #validation {
   font-size: 100%;
   background-color: black;
-  opacity: .75;
+  opacity: .9;
   border-radius: 1px;
   padding: 12px;
   border: 1px solid;
   margin: 10px;
-  max-width: 870px;
+  max-width: 770px;
+
+
 
 }
 #style ul {
@@ -100,25 +110,31 @@ img.pic {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
 
 #style li {
-  float: left; /*explore what happens if this is 'right' instead*/
+  float: left; /*explore what happens if this is 'right' instead- This gonna make the 3 buttoms to start form left*/
 }
+
 
 #style li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px; /*this adds some spacing around the items in our style footer*/
+  padding: 14px 16px;
   text-decoration: none;
 }
 
 /* Change the link color to #000 (black) on hover */
 #style li a:hover {
-  background-color: #000;
-}
+  border:none;
+  background-color: inherit;
+  padding: 14px 28px; /*Add hover animation*/
+  cursor: pointer;
+  display: inline-block; }
+ a:hover, a:visited {color: red;}
+/*5.Change the color of text after visited */
 
 #style {
   position: fixed;
@@ -128,4 +144,6 @@ img.pic {
   top: 0;
   height: 55px;
   padding-top: 10px;
+
+
 }
