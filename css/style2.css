@@ -31,11 +31,10 @@ body{
   opacity: .8;
 }
 
-
+/*Change the font for all section title.*/
 h2 {
-  font-family: "Abyssinica SIL";
+  font-family: monospace;
 }
-/*2.Change the font for all section title.*/
 
 .section {
   border-radius: 1px;
@@ -47,17 +46,16 @@ h2 {
 
 }
 /*3.Change section border to squre*/
-#courses {
+#courses,#pslo {
   background-color: black;
   opacity: .9;
 
 }
+/*Grouping*/
 
 #pslo {
-  background-color: black;
-  opacity: .9;
   padding: 1em;
- float: right; /*4. This divide the screen in two sections */
+  float: right; /*4. This divide the screen in two sections */
   width: 50%; /* This makes the div to take only 50 % of the screen */
   height: 400px;
 
@@ -117,7 +115,6 @@ img.pic {
   float: left; /*explore what happens if this is 'right' instead- This gonna make the 3 buttoms to start form left*/
 }
 
-
 #style li a {
   display: block;
   color: white;
@@ -147,3 +144,7 @@ img.pic {
 
 
 }
+/*Nesting is used in style*/
+/*We use ID in almost every section in CSS code*/
+/*The class is used in .section*/
+/*This page work on Chorome and firefox. We could not check opera browser. The validator says no error*/

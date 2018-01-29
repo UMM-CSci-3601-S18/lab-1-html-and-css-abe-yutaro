@@ -19,7 +19,7 @@ body{
 }
 #main-title{
   color: black; /*2.Changed the color and font for the title...UMM computer scinece */
-  font-family: Sans-serif;
+  font-family: sans-serif;
   text-align: center;
   font-size: 3rem;
 
@@ -44,16 +44,16 @@ h2 {
 }
 /*3.Add shadow on the div*/
 
-#courses {
+#courses,#pslo {
 background-color: lightpink;
   opacity: .85;
 
 }
 /*4.Change the color for border area and add opacity*/
+/*Grouping*/
 
 #pslo {
   background-color: lightblue;
-  opacity: .85;
 
 }
 
@@ -131,5 +131,7 @@ img.pic {
   opacity: .85;
 }
 
-
-/*This page work on Chorome and firefox. We could not check opera browser.*/
+/*Nesting is used in style*/
+/*We use ID in almost every section in CSS code*/
+/*The class is used in .section*/
+/*This page work on Chorome and firefox. We could not check opera browser. The validator says no error*/
