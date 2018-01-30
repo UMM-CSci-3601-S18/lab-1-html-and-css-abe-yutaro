@@ -12,7 +12,7 @@ body{
   padding: 30px;
   background-color: black;
   color: white;
-
+ min-width: 700px;
 
 
 
@@ -46,10 +46,11 @@ h2 {
 
 }
 /*3.Change section border to squre*/
+/*making the max-width: 42% makes the website to not mess it's  looks*/
 #courses,#pslo {
   background-color: black;
   opacity: .9;
-
+   max-width: 42%;
 }
 /*Grouping*/
 
@@ -58,6 +59,7 @@ h2 {
   float: right; /*4. This divide the screen in two sections */
   width: 50%; /* This makes the div to take only 50 % of the screen */
   height: 400px;
+  max-width: 42%;
 
 
 }
@@ -71,7 +73,7 @@ h2 {
   width: 50%;
   float: right;
   height: 550px;
-
+  max-width: 42%;
 }
 
 
@@ -98,7 +100,7 @@ img.pic {
   padding: 12px;
   border: 1px solid;
   margin: 10px;
-  max-width: 770px;
+  max-width: 42%;
 
 
 
